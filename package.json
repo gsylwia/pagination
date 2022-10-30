@@ -1,0 +1,20 @@
+{
+  "name": "pagination",
+  "version": "1.0.0",
+  "description": "Funkcja paginateArray, przyjmuje jako 1 argument tablicę, a jako 2 argument obiekt settings z następującymi kluczami :",
+  "main": "index.js",
+  "scripts": {
+    "compile": "tsc --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gsylwia/pagination.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gsylwia/pagination/issues"
+  },
+  "homepage": "https://github.com/gsylwia/pagination#readme"
+}
