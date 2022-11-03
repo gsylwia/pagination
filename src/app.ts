@@ -17,7 +17,7 @@ const paginateArray = (dataEntries: number[], datasettings: Settings): number[] 
 		arrNew.push(chunk)
     }
 
-	return arrNew[actualPageIdx] || undefined
+	return arrNew[actualPageIdx] ?? undefined
 };
 
 console.log(paginateArray(data, dataSettings));
